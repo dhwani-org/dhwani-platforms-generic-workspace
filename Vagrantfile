@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
   end
 
   # Set the static IP for the vagrant box
-  config.vm.network "private_network", ip: "192.168.50.4"
+  # config.vm.network "private_network", ip: "192.168.50.4"
 
   # Forward the ports from the guest VM to the local host machine
   # Forward more ports, as needed
